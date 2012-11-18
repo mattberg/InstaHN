@@ -1,0 +1,37 @@
+.instahn-readlater {
+	display: inline-block;
+	padding: 0 7px;
+	background: #d8d8d0;
+	border-radius: 8px;
+	color: #656565;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+	-webkit-transition: color .10s linear, background-color .10s linear;
+    transition: color .10s linear, background-color .10s linear;
+}
+.instahn-readlater:hover, .instahn-readlater:active {
+	background-color: #bbb;
+	color: #333;
+}
+
+.instahn-readlater-message {
+	display: inline-block;
+	margin-left: 6px;
+	color: #828282;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 14px;
+	-webkit-transition: color .10s linear;
+    transition: color .10s linear;
+}
+.instahn-readlater-message-success {
+	color: #0a0;
+}
+.instahn-readlater-message-error {
+	color: #a00;
+}
