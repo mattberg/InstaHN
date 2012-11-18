@@ -12,13 +12,19 @@
 		instapaperUsername = changes.instapaperUsername.newValue;
 	});
 	
-	$('.comhead').each(function() {
+	$('td.title').each(function() {
 
-		var el = $(this),
-			url = el.prev().attr('href'),
+		var td = $(this),
+			link = td.children('a:first'),
+			url = link.attr('href'),
+			comhead = td.children('.comhead'),
 			instahn = $('<span>').addClass('instahn-readlater').data('url', url).text('Read Later');
 
-		el.after(instahn);
+		if (comhead.length > 0) {
+			comhead.after(instahn);
+		} else {
+			link.after(instahn.addClass('instahn-readlater-afterlink'));
+		}
 
 		instahn.on('click', function(e) {
 			

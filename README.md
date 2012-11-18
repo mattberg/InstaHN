@@ -34,5 +34,8 @@ For more information, please refer to <http://unlicense.org/>
 Changelog
 ---------
 
+* _v1.0.2_ 2012-11-18
+ * read later link injection update
+
 * _v1.0.1_ 2012-11-18
  * public release

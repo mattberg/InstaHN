@@ -13,6 +13,9 @@
 	-webkit-transition: color .10s linear, background-color .10s linear;
     transition: color .10s linear, background-color .10s linear;
 }
+.instahn-readlater-afterlink {
+	margin-left: 6px;
+}
 .instahn-readlater:hover, .instahn-readlater:active {
 	background-color: #bbb;
 	color: #333;
