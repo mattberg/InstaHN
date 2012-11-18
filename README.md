@@ -1,7 +1,7 @@
 InstaHN
 ========
 
-Adds one-click Instapaper Read Later links to Hacker News
+Chrome Extension that adds one-click Instapaper Read Later links to Hacker News
 
 Licensing
 ---------
